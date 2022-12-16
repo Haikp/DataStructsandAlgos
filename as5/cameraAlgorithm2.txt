@@ -1,0 +1,10 @@
+What are the conditions for placing a camera
+- if it has node(s) in front of it that are not empty
+- if it has no camera within the node(s) infront of it
+- if there is a node infront of it that is unseen
+Will we ever be removing cameras
+- no
+
+1) postorder recursion
+2) check if the front two node exists, if not then return;
+3) check if the 

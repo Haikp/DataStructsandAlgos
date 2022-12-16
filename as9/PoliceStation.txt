@@ -1,0 +1,15 @@
+BasementStairway WatchmensRoom
+WestStairway InformationOffice
+MainHall WaitingRoom
+WaitingRoom LCorridor
+WindingCorridor WestStairway
+LCorridor FileStorage
+InterrogationCorridor PressRoom
+InterrogationCorridor InterrogationRoom
+PayphoneCorridor MainOffice
+LCorridor WindingCorridor
+InformationOffice EvidenceRoom
+PayphoneCorridor InterrogationCorridor
+WestStairway DarkRoom
+MainHall InformationOffice
+InterrogationCorridor ObservationRoom

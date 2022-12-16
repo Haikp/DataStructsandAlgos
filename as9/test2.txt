@@ -1,0 +1,36 @@
+police station map
+keys file
+MainHall
+InformationOffice
+EvidenceRoom
+WestStairway
+DarkRoom
+WindingCorridor
+LCorridor
+FileStorage
+key found at FileStorage
+FileStorage
+LCorridor
+WindingCorridor
+WestStairway
+DarkRoom
+InformationOffice
+MainHall
+PayphoneCorridor
+InterrogationCorridor
+ObservationRoom
+InterrogationRoom
+key found at InterrogationRoom
+InterrogationRoom
+InterrogationCorridor
+ObservationRoom
+PayphoneCorridor
+MainHall
+InformationOffice
+WestStairway
+WaitingRoom
+LCorridor
+WaitingRoom
+MainOffice
+PressRoom
+Ok Leon, your first day will be your last day on the force

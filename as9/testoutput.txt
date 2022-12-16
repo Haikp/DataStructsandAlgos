@@ -1,0 +1,53 @@
+police station map
+keys file
+MainHall
+InformationOffice
+EvidenceRoom
+WestStairway
+DarkRoom
+WindingCorridor
+LCorridor
+FileStorage
+key found at FileStorage
+FileStorage
+LCorridor
+WindingCorridor
+WestStairway
+DarkRoom
+InformationOffice
+MainHall
+PayphoneCorridor
+InterrogationCorridor
+ObservationRoom
+InterrogationRoom
+key found at InterrogationRoom
+InterrogationRoom
+InterrogationCorridor
+ObservationRoom
+PayphoneCorridor
+MainHall
+InformationOffice
+EvidenceRoom
+WestStairway
+DarkRoom
+WindingCorridor
+OperationRoom
+key found at OperationRoom
+OperationRoom
+WindingCorridor
+LCorridor
+FileStorage
+WaitingRoom
+MainHall
+PayphoneCorridor
+InterrogationCorridor
+ObservationRoom
+InterrogationRoom
+PressRoom
+MainOffice
+BasementStairway
+WatchmensRoom
+key found at WatchmensRoom
+WatchmensRoom
+BasementStairway
+MainOffice

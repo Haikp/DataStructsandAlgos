@@ -1,0 +1,26 @@
+1) check if left unseen, if so put a camera in the room, move in to the left room
+2) continue recursively until the next node is NULL
+3) go back in to previous function call and enter the right room, check if it has any unseen rooms, return once NULL is hit
+4) check if there is any adjacent cameras in the left or right room
+
+
+1) put a camera in to the room we are currently in, mark its left node as seen
+2) go in to the left node and check its left node if it is unseen, if so put a camera in the current room and set left node as seen
+3) repeat step 2 until the next node == NULL
+4) going back recursively, enter the right node, check if it contains a left node that is unseen, if so place a camera,
+	continue calling the function recursively
+5) while going back, check if the left or right of its node has camera, if it doesn't then keep the camera
+
+
+1) start in a node
+2) go in to the left node and check if its left node is unseen, if so put a camera in the current room and set ITSELF as seen
+3) repeat step 2 until the next left node == NULL
+4) if left node is NULL, check if right node == NULL
+	if != NULL, then place a camera in the current room and set itself as seen
+5) continue until it begins to go back recursively
+6) as it returns, check if the left and right rooms infront of it has a camera, if it does then remove its own camera UNLESS,
+	it has a room on the right or left that is unseen
+
+
+check 1) is there a camera in the left or right node (if yes remove the camera UNLESS)
+check 2) is the left or the right node considered unseen (if there is an unseen room, then keep the camera)

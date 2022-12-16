@@ -1,0 +1,4 @@
+InterrogationRoom WindingCorridor OperationRoom
+FileStorage MainHall PayphoneCorridor
+WatchmensRoom DarkRoom Exit
+OperationRoom MainOffice BasementStairway
