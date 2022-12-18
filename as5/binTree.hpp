@@ -20,37 +20,37 @@ class binTree
         binTreeNode *right;
     };
 
-public:
-    class binTreeIterator
-    {
     public:
-        friend class binTree;
-        binTreeIterator();
-        binTreeIterator(binTreeNode *);
-        binTreeIterator leftChild() const;
-        binTreeIterator rightChild() const;
-        type &operator*() const;
-        bool operator==(const binTreeIterator &) const;
-        bool operator!=(const binTreeIterator &) const;
+        class binTreeIterator
+        {
+            public:
+                friend class binTree;
+                binTreeIterator();
+                binTreeIterator(binTreeNode *);
+                binTreeIterator leftChild() const;
+                binTreeIterator rightChild() const;
+                type &operator*() const;
+                bool operator==(const binTreeIterator &) const;
+                bool operator!=(const binTreeIterator &) const;
+
+            private:
+                binTreeNode *binTreeNodePointer;
+        };
+
+        binTree();
+        binTree(const binTree<type> &);
+        const binTree &operator=(const binTree<type> &);
+        ~binTree();
+
+        void buildTree(std::vector<type>);
+        binTreeIterator rootIterator() const;
 
     private:
-        binTreeNode *binTreeNodePointer;
-    };
+        void destroyTree(binTreeNode *);
+        void copyTree(binTreeNode *, binTreeNode *);
+        void buildTree(std::vector<type>, binTreeNode *, int);
 
-    binTree();
-    binTree(const binTree<type> &);
-    const binTree &operator=(const binTree<type> &);
-    ~binTree();
-
-    void buildTree(std::vector<type>);
-    binTreeIterator rootIterator() const;
-
-private:
-    void destroyTree(binTreeNode *);
-    void copyTree(binTreeNode *, binTreeNode *);
-    void buildTree(std::vector<type>, binTreeNode *, int);
-
-    binTreeNode *root;
+        binTreeNode *root;
 };
 
 /**********************************************
